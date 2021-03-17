@@ -2,13 +2,16 @@
   "name": "simplerrestapi",
   "version": "1.0.0",
   "description": "Simple rest api using node with js",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "José Ruiz",
   "license": "ISC",
   "dependencies": {
-    "node": "^15.10.0"
+    "body-parser": "^1.19.0",
+    "node": "^15.10.0",
+    "nodemon": "^2.0.7",
+    "querystring": "^0.2.1"
   }
 }
